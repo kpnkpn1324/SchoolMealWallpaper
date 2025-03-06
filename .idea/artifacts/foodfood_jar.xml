@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="foodfood:jar">
+    <output-path>$PROJECT_DIR$/../../내보내기</output-path>
+    <root id="archive" name="foodfood.jar">
+      <element id="module-output" name="foodfood" />
+    </root>
+  </artifact>
+</component>
