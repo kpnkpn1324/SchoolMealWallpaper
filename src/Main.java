@@ -12,7 +12,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
-
+//고추장보다 높은 사람은? 초고추장 엌ㅋㅋ
 public class Main {
     public static void main(String[] args) {
         try {
@@ -155,3 +155,9 @@ public class Main {
         process.waitFor();
     }
 }
+
+//ⓒ 2024. 조윤채 All rights reserved.
+//메일:kpnkpn1324@gmail.com
+//본 저작권은 조윤채에게 있습니다
+//2차 수정 및 배포 금지
+//허락없이 수정은 죽빵을 맞을 수 있습니다
