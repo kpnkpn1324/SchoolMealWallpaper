@@ -22,7 +22,7 @@ public class Main {
             String formattedDate = today.format(formatter);
 
             // API URL에 날짜 추가
-            String apiUrl = "https://open.neis.go.kr/hub/mealServiceDietInfo/?ATPT_OFCDC_SC_CODE=E10&SD_SCHUL_CODE=7341089&KEY=37cdc168c38a44779bdd17a51ea4a797&MLSV_YMD=" + formattedDate;
+            String apiUrl = "https://open.neis.go.kr/hub/mealServiceDietInfo/?ATPT_OFCDC_SC_CODE=E10&SD_SCHUL_CODE=7341089&KEY=(급식api키)&MLSV_YMD=" + formattedDate;
 
             // API 요청 및 데이터 파싱
             String parsedData = fetchAndParseApiData(apiUrl);
